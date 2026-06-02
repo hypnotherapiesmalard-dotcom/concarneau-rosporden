@@ -4,89 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Hypnose & EMDR Concarneau - Rosporden | Cabinet thérapeutique</title>
-  <meta name="description" content="Hypnose et EMDR à Rosporden et Concarneau. Accompagnement pour stress, anxiété, phobies, traumatismes et arrêt du tabac.">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Hypnose & EMDR Concarneau - Rosporden</title>
+  <meta name="description" content="Hypnose et EMDR à Rosporden et Concarneau. Accompagnement du stress, anxiété, phobies et traumatismes.">
 
   <style>
-    :root{
-      --bg:#0b1220;
-      --card:#0f1b33;
-      --white:#ffffff;
-      --muted:#a9b4c7;
-      --accent:#38bdf8;
-      --accent2:#22c55e;
-    }
-
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-    }
-
     body{
+      margin:0;
       font-family: Arial, sans-serif;
-      background: #f4f7fb;
+      background:#f6f8fc;
       color:#1f2937;
-      line-height:1.6;
+      line-height:1.7;
     }
 
-    /* HERO */
-    .hero{
-      background: radial-gradient(circle at top, #1e3a8a, #0b1220);
+    header{
+      background: linear-gradient(135deg,#0f172a,#1e3a8a);
       color:white;
-      padding:100px 20px 80px;
+      padding:90px 20px;
       text-align:center;
     }
 
-    .hero h1{
-      font-size:38px;
-      margin-bottom:15px;
+    header h1{
+      font-size:36px;
+      margin-bottom:10px;
     }
 
-    .hero p{
-      font-size:18px;
-      color:#dbeafe;
+    header p{
       max-width:700px;
       margin:auto;
+      font-size:18px;
+      opacity:0.9;
     }
 
-    .cta{
-      margin-top:25px;
+    .btn{
       display:inline-block;
-      background:var(--accent2);
-      color:white;
+      margin-top:25px;
       padding:14px 26px;
-      border-radius:10px;
+      background:#22c55e;
+      color:white;
       text-decoration:none;
+      border-radius:10px;
       font-weight:bold;
     }
 
-    .cta:hover{
-      transform:scale(1.03);
-      transition:0.2s;
-    }
-
-    /* SECTIONS */
     .container{
-      max-width:1100px;
+      max-width:900px;
       margin:auto;
       padding:40px 20px;
     }
 
-    .grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-      gap:20px;
-    }
-
     .card{
       background:white;
-      padding:25px;
+      padding:28px;
+      margin-bottom:20px;
       border-radius:14px;
-      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+      box-shadow:0 10px 25px rgba(0,0,0,0.06);
     }
 
     h2{
@@ -94,50 +65,19 @@
       margin-bottom:10px;
     }
 
-    .section-title{
-      text-align:center;
-      font-size:26px;
-      margin-bottom:30px;
-      color:#0f172a;
+    .highlight{
+      background:#eef6ff;
+      padding:15px;
+      border-left:4px solid #1e3a8a;
+      border-radius:10px;
+      margin-top:15px;
     }
 
-    .badge{
-      display:inline-block;
-      background:#e0f2fe;
-      color:#0369a1;
-      padding:6px 12px;
-      border-radius:999px;
-      font-size:13px;
-      margin-bottom:10px;
-    }
-
-    /* FOOTER */
     footer{
       text-align:center;
-      padding:40px 20px;
-      font-size:14px;
+      padding:40px;
+      font-size:13px;
       color:#6b7280;
-    }
-
-    /* CONTACT BOX */
-    .contact{
-      background:#0f172a;
-      color:white;
-      text-align:center;
-      padding:50px 20px;
-      border-radius:16px;
-      margin-top:30px;
-    }
-
-    .contact a{
-      display:inline-block;
-      margin-top:15px;
-      background:var(--accent2);
-      color:white;
-      padding:14px 24px;
-      border-radius:10px;
-      text-decoration:none;
-      font-weight:bold;
     }
 
   </style>
@@ -145,77 +85,85 @@
 
 <body>
 
-  <!-- HERO -->
-  <div class="hero">
-    <h1>Hypnose & EMDR à Concarneau – Rosporden</h1>
+<header>
+  <h1>Hypnose & EMDR à Concarneau – Rosporden</h1>
+  <p>
+    Un accompagnement pour vous aider à apaiser ce qui devient trop lourd :
+    stress, anxiété, phobies, blocages émotionnels.
+  </p>
+  <a class="btn" href="#contact">Prendre rendez-vous</a>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Si vous êtes ici…</h2>
     <p>
-      Retrouver un apaisement durable face au stress, aux phobies, à l’anxiété
-      et aux blocages émotionnels.
+      Ce n’est probablement pas par hasard.
+      Peut-être que quelque chose est devenu trop présent :
+      des pensées qui tournent, une tension intérieure, ou une peur qui limite votre quotidien.
     </p>
-    <a class="cta" href="#contact">Prendre rendez-vous</a>
-  </div>
 
-  <!-- PROBLEMES -->
-  <div class="container">
-    <div class="section-title">Ce que vous pouvez traverser</div>
-
-    <div class="grid">
-
-      <div class="card">
-        <div class="badge">Fréquent</div>
-        <h2>Anxiété & stress</h2>
-        <p>Ruminations, tension permanente, difficulté à lâcher prise.</p>
-      </div>
-
-      <div class="card">
-        <div class="badge">Très courant</div>
-        <h2>Phobies</h2>
-        <p>Voiture, avion, animaux, situations sociales…</p>
-      </div>
-
-      <div class="card">
-        <div class="badge">Accompagnement</div>
-        <h2>Traumatismes</h2>
-        <p>Événements marquants, blocages émotionnels persistants.</p>
-      </div>
-
+    <div class="highlight">
+      L’objectif n’est pas de “tenir bon”, mais de retrouver un apaisement durable.
     </div>
   </div>
 
-  <!-- APPROCHE -->
-  <div class="container">
-    <div class="section-title">Mon approche</div>
-
-    <div class="card">
-      <h2>Hypnose & EMDR</h2>
-      <p>
-        Deux approches complémentaires pour agir sur les mécanismes inconscients,
-        apaiser les réactions émotionnelles et faciliter un retour à l’équilibre.
-      </p>
-    </div>
+  <div class="card">
+    <h2>Ce que vous traversez peut prendre plusieurs formes</h2>
+    <p>
+      Stress constant, anxiété, phobies, blocages émotionnels,
+      ou encore des événements du passé qui continuent d’avoir un impact aujourd’hui.
+    </p>
   </div>
 
-  <!-- CABINET -->
-  <div class="container">
-    <div class="card">
-      <h2>Cabinet</h2>
-      <p>Consultations à Rosporden, proche de Concarneau.</p>
-      <p>Uniquement sur rendez-vous.</p>
-    </div>
+  <div class="card">
+    <h2>Mon approche</h2>
+    <p>
+      J’utilise l’hypnose et l’EMDR pour travailler sur les mécanismes inconscients
+      qui entretiennent certaines réactions émotionnelles.
+    </p>
+
+    <p>
+      L’idée est simple : permettre à votre système intérieur de se réorganiser
+      pour retrouver plus de calme et de stabilité.
+    </p>
   </div>
 
-  <!-- CONTACT -->
-  <div class="container" id="contact">
-    <div class="contact">
-      <h2>Prendre rendez-vous</h2>
-      <p>Contactez-moi pour organiser une séance.</p>
-      <a href="#">Me contacter</a>
-    </div>
+  <div class="card">
+    <h2>Comment se déroule l’accompagnement</h2>
+    <p>
+      Chaque personne avance à son rythme.
+      Il n’y a pas de méthode rigide ni de solution toute faite.
+    </p>
+
+    <p>
+      Les séances se construisent en fonction de votre histoire et de ce que vous traversez.
+    </p>
   </div>
 
-  <footer>
-    Hypnose & EMDR – Rosporden / Concarneau
-  </footer>
+  <div class="card">
+    <h2>Cabinet</h2>
+    <p>
+      Je vous reçois à Rosporden, à proximité de Concarneau,
+      uniquement sur rendez-vous.
+    </p>
+  </div>
+
+  <div class="card" id="contact">
+    <h2>Prendre rendez-vous</h2>
+    <p>
+      Si vous souhaitez échanger ou planifier une séance,
+      vous pouvez me contacter directement.
+    </p>
+    <a class="btn" href="#">Me contacter</a>
+  </div>
+
+</div>
+
+<footer>
+  Hypnose & EMDR – Rosporden / Concarneau
+</footer>
 
 </body>
 </html>
